@@ -58,6 +58,10 @@ table {
 
 /* ==== BASE STYLES ==== */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
   color: #333;
   font-family: Roboto, 'Times New Roman', serif;
@@ -83,6 +87,21 @@ h2 {
   color: #8c8e9b;
   font-size: 1.125rem;
   letter-spacing: .125rem;
+}
+
+/* ==== LAYOUT STYLES ==== */
+
+/* Main Header Styles */
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
+}
+
+/* Article Styles */
+.post {
+	width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
 }
 
 .picture {
